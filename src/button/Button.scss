@@ -1,0 +1,15 @@
+.Button{
+
+  button{
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-width: 0 0 1px;
+    box-shadow: none;
+    margin-top: 10px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
